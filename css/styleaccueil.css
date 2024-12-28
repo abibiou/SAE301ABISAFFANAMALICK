@@ -1,0 +1,80 @@
+ body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F6F7F5;
+    
+}
+html, body {
+  overflow-x: hidden;
+}
+
+
+.menuterradata {
+    height: 90px;
+    background-color: #F6F7F5;
+}
+
+.navbar-nav .nav-link {
+    margin: 0 15px;
+    color: #2D4129;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.topac{
+    line-height: 150%;
+}
+
+h1{
+    line-height: 137%;
+}
+.presentationterradata .col-md-4 {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  
+  .presentationterradata img {
+    width: 100%;
+    border-radius: 32px;
+    object-fit: cover;
+  }
+  
+  .adn {
+    background-image: url("../image/scienceeffect.png");
+    background-position: center; 
+    background-repeat: no-repeat; 
+  }
+
+  .lafeuille{
+    cursor: pointer;
+    transition: transform 2.5s ease;
+  }
+  .lafeuille:hover {
+    transform: scale(1.15);
+  } 
+
+  .zoomimage{
+    cursor: pointer;
+    transition: transform 1.5s ease;
+  }
+
+  .zoomimage:hover {
+    transform: scale(1.03);
+  } 
+  @media (max-width: 575px) {
+    .coucou {
+      font-size: 0.875rem; 
+    }
+  }
+  
+  @media (min-width: 576px) and (max-width: 991px) {
+    .coucou {
+      font-size: 1rem; 
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .coucou {
+      font-size: 1.25rem; 
+    }
+  }
