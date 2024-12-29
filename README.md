@@ -96,7 +96,7 @@ TERRADATA est consistué de 4 pages :
 
 **Difficultés rencontrées** 
 
--Cependant, nous avons rencontré quelques problèmes suite à des difficultés avec l'importation du d3.js et du csv en chart.js. Mais à l'aide de vidéos et des documentations, l'équipe a réussi à résoudre le problème.
+ - Nous avons rencontré quelques problèmes suite à des difficultés avec l'importation du d3.js et du csv en chart.js. Mais à l'aide de vidéos et des documentations, l'équipe a réussi à résoudre le problème.
 
 - L'importation de la texture en 3D : bien que nous ayons réussi à réaliser des éléments des biocontrôles en 3D, lors de l'importation, la texture était absente. Nous avons cherché au maximum sur internet, mais nous n'avons pas réussi à résoudre le problème.
 
