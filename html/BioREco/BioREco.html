@@ -159,7 +159,7 @@
       <script>
         d3.csv("302.csv").then(data => {
             // Filtre pour selectionner uniquement le projet 4sysleg
-            const projectData = data.filter(d => d["Nom du projet "]?.trim().toLowerCase() === "4sysleg");
+            const projectData = data.filter(d => d["Nom du projet "]?.trim().toLowerCase() === "bioreco");
 
             // Compter les types de traitement
             const counts = {};
@@ -197,7 +197,7 @@
         })
       d3.csv("302.csv").then(data => {
                // Filtre pour selectionner uniquement le projet
-               const projectData = data.filter(d => d["Nom du projet "]?.trim().toLowerCase() === "4sysleg");
+               const projectData = data.filter(d => d["Nom du projet "]?.trim().toLowerCase() === "bioreco");
 
                // Compter les types de cultures
                const counts = {};
